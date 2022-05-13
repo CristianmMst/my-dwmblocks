@@ -1,0 +1,5 @@
+#! /bin/bash 
+#-e
+dte="$(date +"%a, %d/%m/%y %I:%M%p"| sed 's/  / /g')"
+echo "^c#FF5858^^c#FFFFFF^ $dte"
+
